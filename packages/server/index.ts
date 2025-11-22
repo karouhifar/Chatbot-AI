@@ -14,6 +14,9 @@ const networkAddress = getNetworkAddress();
 app.use(express.json());
 
 app.get("/", (req, res) => {
+  res.send("OK");
+});
+app.get("/api/hello", (req, res) => {
   res.json({ message: "Hello, World" });
 });
 
