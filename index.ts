@@ -8,15 +8,15 @@ import path from "path";
 const commands = [
   {
     command: "bun:dev",
-    name: "server",
-    prefixColor: "green",
-    cwd: path.resolve(__dirname, "packages/server"),
-  },
-  {
-    command: "bun:dev",
     name: "client",
     prefixColor: "blue",
     cwd: path.resolve(__dirname, "packages/client"),
+  },
+  {
+    command: "bun:dev",
+    name: "server",
+    prefixColor: "green",
+    cwd: path.resolve(__dirname, "packages/server"),
   },
 ];
 

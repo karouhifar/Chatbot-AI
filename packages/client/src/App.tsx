@@ -20,7 +20,7 @@ function App() {
   return (
     <div>
       {loading && <p>Loading...</p>}
-      {data && <p>{data}</p>}
+      {data && <p className="font-bold">{data}</p>}
     </div>
   );
 }
